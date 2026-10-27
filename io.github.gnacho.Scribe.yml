@@ -37,4 +37,9 @@ modules:
         url: https://github.com/gnacho/scribe
         tag: v0.3.20
         commit: 8fa73903528db2ad79391122814c5423deb23e8b
+        x-checker-data:
+          type: git
+          tag-pattern: ^v([0-9.]+)$
+          version-scheme: semantic
+          is-main-source: true
       - cargo-sources.json
